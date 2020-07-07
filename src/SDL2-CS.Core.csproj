@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
 		<Platforms>x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
@@ -11,10 +11,10 @@
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	</PropertyGroup>
 	<ItemGroup>
-		<Compile Include="src\SDL2.cs" />
-		<Compile Include="src\SDL2_image.cs" />
-		<Compile Include="src\SDL2_mixer.cs" />
-		<Compile Include="src\SDL2_ttf.cs" />
+		<Compile Include="SDL2.cs" />
+		<Compile Include="SDL2_image.cs" />
+		<Compile Include="SDL2_mixer.cs" />
+		<Compile Include="SDL2_ttf.cs" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="app.config" />
